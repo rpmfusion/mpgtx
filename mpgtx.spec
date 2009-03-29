@@ -1,6 +1,6 @@
 Name:           mpgtx
 Version:        1.3.1
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        An MPEG toolbox
 
 Group:          Applications/Multimedia
@@ -46,6 +46,9 @@ rm -rf $RPM_BUILD_ROOT
 %lang(de) %{_mandir}/de/man1/*
 
 %changelog
+* Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 1.3.1-5
+- rebuild for new F11 features
+
 * Sun Aug 03 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 1.3.1-4
 - rebuild
 
