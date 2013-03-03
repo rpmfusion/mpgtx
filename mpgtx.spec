@@ -1,6 +1,6 @@
 Name:           mpgtx
 Version:        1.3.1
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        An MPEG toolbox
 
 Group:          Applications/Multimedia
@@ -46,6 +46,9 @@ rm -rf $RPM_BUILD_ROOT
 %lang(de) %{_mandir}/de/man1/*
 
 %changelog
+* Sun Mar 03 2013 Nicolas Chauvet <kwizart@gmail.com> - 1.3.1-8
+- Mass rebuilt for Fedora 19 Features
+
 * Fri Mar 02 2012 Nicolas Chauvet <kwizart@gmail.com> - 1.3.1-7
 - Rebuilt for c++ ABI breakage
 
