@@ -1,6 +1,6 @@
 Name:           mpgtx
 Version:        1.3.1
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        An MPEG toolbox
 
 Group:          Applications/Multimedia
@@ -46,6 +46,9 @@ rm -rf $RPM_BUILD_ROOT
 %lang(de) %{_mandir}/de/man1/*
 
 %changelog
+* Thu Mar 01 2018 RPM Fusion Release Engineering <leigh123linux@googlemail.com> - 1.3.1-12
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_28_Mass_Rebuild
+
 * Thu Aug 31 2017 RPM Fusion Release Engineering <kwizart@rpmfusion.org> - 1.3.1-11
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
 
