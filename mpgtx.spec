@@ -17,7 +17,7 @@ fetch detailed information about a variety of MPEG files.
 
 %prep
 %setup -q
-%patch0 -p6 -b .makefile
+%patch -P0 -p6 -b .makefile
 for f in ChangeLog man/de/mpgtx.1 man/de/tagmp3.1 ; do
     iconv -f iso-8859-1 -t utf-8 $f > $f.utf8 ; mv $f.utf8 $f
 done
