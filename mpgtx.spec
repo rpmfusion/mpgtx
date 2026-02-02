@@ -1,6 +1,6 @@
 Name:           mpgtx
 Version:        1.3.1
-Release:        26%{?dist}
+Release:        27%{?dist}
 Summary:        An MPEG toolbox
 
 License:        GPLv2+
@@ -40,6 +40,9 @@ make install PREFIX=$RPM_BUILD_ROOT%{_prefix} manprefix=$RPM_BUILD_ROOT%{_datadi
 %lang(de) %{_mandir}/de/man1/*
 
 %changelog
+* Mon Feb 02 2026 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 1.3.1-27
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_44_Mass_Rebuild
+
 * Sun Jul 27 2025 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 1.3.1-26
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_43_Mass_Rebuild
 
